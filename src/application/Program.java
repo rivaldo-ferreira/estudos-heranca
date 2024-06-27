@@ -39,7 +39,7 @@ public class Program {
 
             reservation.updateDates(checkIn,checkOut);
             System.out.println("Reservation: " + reservation);
-
+gi
         } catch (ParseException e) {
             System.out.println("Formato de data inválido!");;
         } catch(DomainExceptions e){
